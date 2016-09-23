@@ -1,0 +1,16 @@
+<h1>Sand#update</h1>
+<html>
+<head>
+	<title>update</title>
+</head>
+<body>
+
+	
+<%=form_for(:Sand,:url=>{:controller=>"sand",:action=>"update2",:id=>@id}) do |f| %>
+username<%= f.text_field("username")%>	<br>
+password<%= f.text_field("password")%>	
+<%= submit_tag("submit") %>	
+<% end %>
+
+</body>
+</html>
