@@ -6,6 +6,7 @@ class Sand2Controller < ApplicationController
   end
 
   def show
+    @user=Sand.all
   end
 
   def delete
